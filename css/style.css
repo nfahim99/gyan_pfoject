@@ -1,0 +1,282 @@
+
+
+h1,h2,h3,h4,h5,h6,
+p,
+span{
+    margin: 0;
+    padding: 0;
+}
+a,a:hover{
+    text-decoration: none;
+}
+
+body{
+    font-family: 'Arimo', sans-serif;
+}
+/* top_menu Section Css Start */
+.top_menu{
+    background-color: #2d3e50;
+    
+}
+.top_menu .left_side ul{
+    padding-left: 0;
+} 
+.top_menu .left_side ul li{
+    display: inline-block;
+    color: #ffffff;
+    padding-right: 20px;
+    padding-top: 10px;
+}
+.top_menu .right_side ul li{
+    display: inline-block;
+    
+    padding-top: 10px;
+}
+.top_menu .right_side ul li a{
+    color: #ffffff;
+}
+/* top_menu Section Css end */
+
+/* nav Section Css Start */
+#nav{
+    background-color: #ffffff;
+}
+#nav #menu ul li a{
+    color: #2d3e50;
+    padding: 10px 20px;
+    font-size: 16px;
+}
+#nav .start_btn a{
+    background-color: #fbaa33;
+    color: #ffffff;
+    font-size: 16px;
+    padding: 15px 15px;
+}
+/* nav Section Css end */
+
+/* banner Section Css Start */
+
+#banner .banner_sec{
+    color: #ffffff;
+    
+}
+#banner .banner_sec .banner01{
+    background: url(../img/banner1.png);
+    background-size: cover !important;
+    height: 700px;
+    position: relative;
+    z-index: 1;
+}
+
+#banner .banner_sec .banner02{
+    background: url(../img/Banner-02.jpg);
+    background-size: cover !important;
+    height: 700px;
+    position: relative;
+    z-index: 1;
+}
+
+#banner .banner_sec .banner03{
+    background: url(../img/banner_03.jpg);
+    background-size: cover !important;
+    height: 700px;
+    position: relative;
+    z-index: 1;
+}
+#banner .banner_sec .slider::before{
+    content: '';
+    position: absolute;
+    background-color: #000000;
+    opacity: 0.5;
+    width: 100%;
+    height: 100%;
+    left: 0;
+    top: 0;
+    z-index: -1;
+}
+#banner .banner_sec h1{
+    padding-top: 200px;
+    font-weight: 800;
+    font-size: 52px;
+    text-transform: uppercase;
+}
+#banner .banner_sec span{
+    display: block;
+}
+#banner .banner_sec p{
+    padding: 0 500px 50px 0;
+}
+#banner .banner_sec button{
+    color: #ffffff;
+    font-size: 16px;
+    background-color: #2d3e50;
+    padding: 20px 20px;
+    margin-right: 10px;
+}
+#banner .banner_sec button:hover{
+    background-color: #fbaa33;
+    transition: all linear 0.5s;
+}
+#banner .banner_sec .slider_icon{
+    color: #ffffff;
+    background-color: #ffffff21;
+    
+    width: 50px;
+    height: 50px;
+    cursor: pointer;
+    position: absolute;
+    top: calc(50% - 25px);
+    text-align: center;
+    line-height: 50px;
+    border-radius: 50%;
+    z-index: 999;
+}
+#banner .banner_sec .slider_icon:hover{
+    background-color: #fbaa33;
+    transition: all linear 0.5s;
+}
+#banner .banner_sec .fa-arrow-left{
+    left: 30px;
+}
+#banner .banner_sec .fa-arrow-right{
+    right: 30px;
+    left: auto;
+}
+/* banner Section Css end */
+
+/* support Section Css Start */
+#support{
+    padding-bottom: 100px;
+}
+#support .support_item{
+    text-align: center;
+    background-color: #f5f5f5;
+    border: 1px solid #dddddd;
+    padding: 50px 0;
+    margin-top: -100px;
+    z-index: 9999;
+
+}
+#support .support_item h4{
+    font-weight: 600;
+    padding: 10px 0;
+}
+#support .support_item a{
+    color: #000000;
+}
+#support .support_item a:hover{
+    color: #fbaa33;
+    transition: all linear 0.5s;
+}
+#support .support_item:hover{
+    box-shadow: 0 10px 20px rgba(0, 0,0,0.2);
+    transition: all linear 0.5s;
+}
+/* support Section Css end */
+
+/* about Section Css Start */
+.title_Sec{
+    text-align: center;
+    padding: 0 325px;
+}
+/* about Section Css end */
+
+/* counter Section Css Start */
+#counter{
+    background-image: url(../img/counterPartImage.png);
+    background-position: center !important;
+    background-size: cover !important;
+}
+#counter .counter_item{
+    padding: 50px 20px;
+    color: #f5f5f5;
+    text-align: center;
+}
+/* counter Section Css end */
+
+/* course Section Css Start */
+#courses{
+    padding-bottom: 100px;
+}
+#courses .course_slider .course{
+    position: relative;
+    background: #f5f5f5;
+
+}
+#courses .course_slider .trainer_details .tr_name h5{
+    font-weight: 600;
+}
+#courses .course_slider .trainer_details .tr_rating i{
+    color: #fbaa33;
+}
+#courses .course_slider .crs_details h4{
+    font-weight: 700;
+}
+#courses .course_slider .crs_details p{
+    color: #181818;
+    line-height: 16px;
+    
+}
+#courses .course_slider .crs_keynote{
+    display: inline-block;
+    padding: 30px 0;
+    margin-left: 15px;
+
+}
+#courses .course_slider .crs_keynote p{
+    font-size: 12px;
+    color: #999999;
+}
+#courses .course_slider .crs_keynote h6{
+    color: #444444;
+    font-weight: 700;
+    font-size: 14px;
+}
+#courses .course_slider .enroll a{
+    padding: 15px 20px;
+    background-color: #2d3e50;
+    color: #ffffff;
+    position: absolute;
+    text-align: center;
+    left: 50%;
+}
+/* course Section Css end */
+
+/* testimunial Section Css Start */
+#testimunial .tes_slider .tes_img{
+    position: relative;
+    padding-top: 10px;
+}
+
+.tes_img::after{
+    position: absolute;
+    content: '';
+    top: 0px;
+    left: 10px;
+    background: url(../img/eventsliderfooterBorder.png);
+    width: 220px;
+    height: 3px;
+    z-index: 1;
+}
+.tes_img::before{
+    position: absolute;
+    content: '';
+    bottom: -10px;
+    left: 0px;
+    background: url(../img/eventslidertopBorder.png);
+    width: 220px;
+    height: 3px;
+    z-index: 1;
+}
+
+
+
+#testimunial .tes_slider .tes_img{
+        -webkit-clip-path: polygon(17% 0, 100% 0%, 83% 100%, 0% 100%);
+        clip-path: polygon(17% 0, 100% 0%, 83% 100%, 0% 100%);
+}
+#testimunial .tes_slider .tes_text{
+    padding-top: 50px;
+    padding-bottom: 30px;
+}
+/* testimunial Section Css end */
